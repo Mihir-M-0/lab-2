@@ -9,9 +9,9 @@
 ## 1  Learning objectives
 
 1. Write Python functions using loops, conditionals, and data structures.
-2. Add unit tests with **pytest** to verify correctness.
-3. Track changes with **Git** and publish to **GitHub**.
-4. Produce a fully reproducible research bundle following the [TIER Protocol 4.0](https://www.projecttier.org/tier-protocol/protocol-4-0/).
+2. Introduced to unit tests with **pytest** to verify correctness.
+3. Figure out what pre-written code does (comment _validate_numeric)
+4. Track changes with **Git** and publish to **GitHub**. 
 
 ---
 
@@ -22,8 +22,7 @@
 | `assignment.py` | **Your code** — implement 4 statistics utilities. |
 | `test_assignment.py` | Autograder & local tests (do **not** edit). |
 | `requirements.txt` | Package list used by GitHub Actions & mamba env. |
-| `.github/workflows/autograding.yml` | CI workflow that runs tests on every push. |
-| `environment.yml` | *Optional:* exact env export for TIER compliance. |
+| `.github/workflows/autograding.yaml` | CI workflow that runs tests on every push. |
 
 ---
 
@@ -81,3 +80,9 @@ git commit -m "Finish mean_loop and median_loop"
 git push origin main
 ```
 GitHub Actions will run pytest automatically (see the Checks tab).
+
+###  4.4  Reflect
+
+Please write a reflection (1-2 paragraphs is fine) on what was the most challenging part of today and push it as a .txt file. 
+
+Remember: GitHub Actions will run pytest automatically (see the Checks tab).
