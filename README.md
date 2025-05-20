@@ -1,4 +1,4 @@
-# Lab: Python Exercises & Version Control (TIER Protocol)
+# Lab 2
 
 *Course:* Intro to Data & Computing  
 *Session date:* **July 2, 2025 – Afternoon (4 h)**  
