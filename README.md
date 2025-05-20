@@ -1,8 +1,8 @@
 # Lab: Python Exercises & Version Control (TIER Protocol)
 
 *Course:* Intro to Data & Computing  
-*Session date:* **July 2 – Afternoon (4 h)**  
-*Environment:* `lab_july_2` (conda/mamba)
+*Session date:* **July 2, 2025 – Afternoon (4 h)**  
+*Environment:* `lab_2` (conda/mamba)
 
 ---
 
@@ -35,12 +35,12 @@ Open a terminal and run:
 
 ### 3.1 Create isolated env
 ```bash
-mamba create -n lab_july_2 python=3.11 -y
+mamba create -n lab_2 python=3.11 -y
 ```
 
 ### 3.2 Activate it
 ```bash
-mamba activate lab_july_2
+mamba activate lab_2
 ```
 ### 3.3 Install required pkgs
 ```bash
